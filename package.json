@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe-game-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^x.x.x",
+    "express": "^x.x.x",
+    "mongoose": "^x.x.x"
+  },
+  "devDependencies": {
+    "@types/express": "^x.x.x",
+    "@types/mongoose": "^x.x.x",
+    "typescript": "^x.x.x"
+  }
+}
