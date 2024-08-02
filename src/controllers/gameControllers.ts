@@ -32,7 +32,6 @@ export const createGame = async (req: Request, res: Response) => {
 
     res.status(201).json(game);
   } catch (error) {
-    res.status(400).json({ error: error.message });
   }
 };
 
@@ -41,6 +40,5 @@ export const getGames = async (req: Request, res: Response) => {
     const games = await Game.find().populate('player1').populate('player2');
     res.status(200).json(games);
   } catch (error) {
-    res.status(400).json({ error: error.message });
   }
 };
